@@ -1,0 +1,115 @@
+/* navbar link */
+
+body {
+  font-family: " Nova Flat", cursive;
+}
+nav {
+  background-image: url(imge/bajususun.jpg);
+  opacity: 0.9;
+  box-shadow: 3px 3px 4px black !important;
+}
+nav .nav-link {
+  margin-left: 40px;
+}
+nav img {
+  display: none;
+}
+/* jumbtron */
+.carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.carousel::after {
+  content: "";
+  display: block;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.gambar {
+  background-image: url(imge/backgroundgambar.jpg);
+}
+.gambar h4 {
+  font-size: 35px;
+  text-transform: uppercase;
+
+  height: 90px;
+  line-height: 83px;
+  margin: auto;
+  font-weight: 200;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgb(158, 158, 158);
+  font-family: " Nova Flat", cursive;
+  box-sizing: border-box;
+  color: white;
+}
+.gambar p {
+  font-weight: bold;
+  font-family: "Nova Flat", cursive;
+  font-size: 25px;
+  color: white;
+}
+.gambar img {
+  opacity: 1;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 5px rgb(24, 23, 23);
+}
+
+.gambar img:active {
+  opacity: 0.7;
+}
+/* position: relative;
+  z-index: 1; */
+
+/* .jumbotron img:hover::after {
+  content: "";
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+} */
+/* akhir jumbotron */
+/* breakpoint */
+@media (min-width: 992px) {
+  nav img {
+    display: block;
+  }
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+  }
+  .nav-link {
+    font-size: 0.8em;
+  }
+  /* file gambar */
+  .gambar h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: white;
+    width: 400px;
+    height: 90px;
+    line-height: 83px;
+    margin: auto;
+    border: 5px solid rgb(5, 5, 5);
+    font-weight: 200;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(158, 158, 158);
+    font-family: " Nova Flat", cursive;
+    box-sizing: border-box;
+    color: black;
+  }
+  /* responsive footer */
+  footer {
+    background-color: rgb(49, 49, 49);
+    height: 100px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+  }
+}
