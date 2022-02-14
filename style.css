@@ -9,7 +9,7 @@ nav {
   box-shadow: 3px 3px 4px black !important;
 }
 nav .nav-link {
-  margin-left: 40px;
+  margin-left: 70px;
 }
 nav img {
   display: none;
@@ -111,5 +111,14 @@ nav img {
     color: white;
     text-align: center;
     line-height: 100px;
+  }
+  .carousel {
+    display: flex;
+    align-content: center;
+  }
+
+  .carousel h5 {
+    padding-bottom: autoS;
+    color: red;
   }
 }
