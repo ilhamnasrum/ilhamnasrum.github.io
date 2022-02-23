@@ -81,7 +81,7 @@ nav img {
   }
   .navbar-brand,
   .nav-link {
-    color: white !important;
+    color: rgb(216, 212, 212) !important;
     text-transform: uppercase;
   }
   .nav-link {
